@@ -1,0 +1,8 @@
+x=int(input("Enter the Starting value :"))
+y=int(input("How many number do you Want to Added:"))
+sum=0
+while x<=y:
+    if x%2==0:
+        sum=sum+x
+    x=x+2
+print(sum)
